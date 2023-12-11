@@ -7,7 +7,7 @@ import CreateAccount from '../components/Authentication/CreateAccount'
 function Home() {
   return (
     <>
-        <Layout />
+        <h1>Home</h1>
     </>
   )
 }
