@@ -1,7 +1,5 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import SignInPage from './pages/SignInPage'
@@ -26,7 +24,7 @@ import Layout from './components/Layout/Layout'
 function App() {
 
   return (
-    <>
+    <div>
     
     <Routes>
 
@@ -53,7 +51,7 @@ function App() {
       </Route>
 
     </Routes>
-    </>
+    </div>
   )
 }
 

@@ -11,7 +11,8 @@ function SignIn() {
     }
   return (
     <>
-    <div className="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+    <div>
+    <div className="w-full mt-10 max-w-sm mx-auto overflow-hidden bg-white rounded-md shadow-lg border-1 dark:bg-gray-800">
     <div className="px-6 py-12">
         <div className="flex justify-center mx-auto">
             <img className="w-auto h-15 sm:h-14" src={logo} alt="" />
@@ -45,6 +46,7 @@ function SignIn() {
         <Link to='/create-account' className="mx-2 text-sm font-bold text-blue-500 dark:text-blue-400 hover:underline">Create Account</Link>
     </div>
 </div>
+    </div>
     </>
   )
 }
